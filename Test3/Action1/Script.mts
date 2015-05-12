@@ -29,6 +29,8 @@ Set file= fso.OpenTextFile(file_location, 2, true)
 file.Write(newData)
 file.Close
 
+Wait(5)
+
 
 rem myrandom=RandomNumber.Value(1,4)
 rem Reporter.ReportEvent micFail, "RandomFailure", "This test fails sometimes" 
